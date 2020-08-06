@@ -6,15 +6,15 @@ This API was developed by the Pagame engineering team. Please contact brendan@pa
 
 ## Mission
 
-### What
+### What?
 
-At Pagame, wour mission is to facilitate the digital transaction process and promote financial inclusion. 
+At Pagame, our mission is to facilitate the digital transaction process and promote financial inclusion. 
 
-### Why
+### Why?
 
 Finances are a part of everyone's life. At Pagame, we believe that financial exclusion is neglection of the universal right to freedom. 
 
-### How
+### How?
 
 This API is a culmination of secure and efficient data structures and function endpoints to process financial transactions instantaneously. The Pagame team prioritizes maintaining low barrier-to-entry into the network.
 
@@ -30,7 +30,7 @@ All responses will be of the form:
 }
 ```
 
-Subsequent response definitions will only detail
+Subsequent response definitions will only detail the expected value of "data" field
 
 ### List All Users
 
