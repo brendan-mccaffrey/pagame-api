@@ -157,9 +157,20 @@ Only necessary arguments (those to be updated) must be included - others may be 
 
 **Arguments**
 
+Information of Initiator: 
+- '"account":Account' initiator's source of funds
+and ONE of 
+- '"email":string' initiator's email account
+- '"cell":string' initiator's cell phone number
+- '"username":string' initiator's Pagame username
+
+Information of Recipient: ONE of 
 - '"email":string' recipient's email account
 - '"cell":string' recipient's cell phone number
 - '"username":string' recipient's Pagame username
+
+Additional Information
+- '"amount":double' amount of transaction
 
 **Response**
 
@@ -171,6 +182,7 @@ Only necessary arguments (those to be updated) must be included - others may be 
 [
 	{
 		"identifier": "0XAD32hy",
+		"amount": "120.00",
 		"init-timestamp": "1596709140",
 		"initiator": "987654321",
 		"init-geostamp": "PTR63jiu",
